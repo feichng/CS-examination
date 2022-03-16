@@ -16,6 +16,8 @@
 
 # 答案
 
+方式1
+
 ```java
 import java.util.Scanner;
 
@@ -40,4 +42,19 @@ class IfExer1 {
     }
   }
 }
+```
+
+方式2
+
+```java
+System.out.println("请输入你是否帅：(是/否)")；
+String isHandsome = scan.next();
+
+if(height >= 180 && wealth >= 1 && isHandsome.equals("是")){
+        System.out.println("我一定要嫁给他！！！");
+    }else if(height >= 100 || wealth >= 1 || isHandsome){
+        System.out.println("嫁吧，比上不足，比下有余。");
+    }else{
+        System.out.println("不嫁！");
+    }
 ```
